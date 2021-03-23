@@ -1,0 +1,114 @@
+/* nav style */ 
+html {
+  background:pink;
+}
+
+header {
+  text-align: center;
+}
+
+ul>li {
+  display: inline-block;
+  
+}
+
+ul {
+  list-style: none;  
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+li {
+  padding-right:20px;
+  padding-bottom:10px;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(31, 31, 31);
+  font-size: 15px; 
+}
+
+/* header styles */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+
+}
+
+.App-header {
+  background-color: pink;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/*Footer style */
+footer {
+  text-align: center;
+}
+
+/*Tablet style */
+@media screen and (min-width: 600px){
+  a {
+    font-size: 20px; 
+  }
+}
+
+/* Desktop style*/
+@media screen and (min-width: 1025px){
+
+  nav {
+    background-color:rgba(255, 255, 255, 0.219);
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+  }
+
+  ul {
+    list-style: none;  
+    display:flex;
+    justify-content: left;
+  }
+
+  li {
+    padding:20px;
+  }
+
+  a {
+    text-decoration: none;
+    color:rgb(31, 31, 31);
+    font-size: 20px; 
+  }
+
+  .current {
+    color:rgb(70, 155, 224);
+  }
+
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: pink;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+}
+
