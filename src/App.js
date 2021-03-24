@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
 } from "react-router-dom";
 
 import Home from './pages/Home.js';
@@ -13,7 +12,6 @@ import './App.css';
 import './index.css'
 import {NavLink} from 'react-router-dom';
 
-/* Fonts */
 
 export default function App() {
   return (
@@ -52,8 +50,7 @@ export default function App() {
             </Route>
             <Route path="/">
                 <Home />
-            </Route>
-              
+            </Route>    
           </Switch>
         </main>
         <footer>
